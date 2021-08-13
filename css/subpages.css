@@ -1,0 +1,36 @@
+.top {
+	height: 65vh;
+}
+
+.top .screen .center {
+	margin-top: 5vh;
+}
+
+.top .screen .center h1 {
+	font-size: 8vh;
+	color: #fff;
+	margin: 0;
+	margin-bottom: 3vh;
+}
+
+.top .screen .center p {
+	font-size: 1.75vh;
+	color: #fff;
+	margin: 0;
+	padding: 0 15%;
+}
+
+.body {
+	width: 80%;
+	padding: 7.5vh 10%;
+}
+
+.footer {
+	padding: 2.5vh 10%;
+	width: 80%;
+	background-color: #141414;
+	text-align: center;
+	font-size: 1.75vh;
+	color: #fff;
+	margin: 0;
+}

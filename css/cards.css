@@ -1,0 +1,58 @@
+.body .grid {
+	display: grid;
+	width: 100%;
+	grid-auto-rows: 1fr;
+	grid-column-gap: 5%;
+	grid-row-gap: 6vh;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+}
+
+.body .grid .item {
+	background-color: #141414;
+	padding: 4vh 3%;
+	border-radius: .5vh;
+}
+
+.body .grid .item .avatar {
+	display: inline-block;
+	height: 15vh;
+	width: 15vh;
+	border-radius: 50%;
+	background-color: #0f0f0f;
+	margin-bottom: 1vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.body .grid .item .information h1 {
+	font-size: 3vh;
+	color: #fff;
+	margin: 0;
+	margin-bottom: .5vh;
+}
+
+.body .grid .item .information h2 {
+	font-size: 1.75vh;
+	color: #c2c2c2;
+	margin: 0;
+	font-weight: 400;
+	margin-bottom: 1.5vh;
+}
+
+.body .grid .item .information h2 i {
+	margin: 0 .25vw;
+}
+
+.body .grid .item .information p {
+	font-size: 1.75vh;
+	color: #fff;
+	margin: 0;
+}
+
+@media screen and (max-width: 600px), (orientation : portrait) {
+	.body .grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
